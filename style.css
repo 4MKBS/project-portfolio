@@ -153,7 +153,7 @@ main {
 
 .skills p {
     color: rgb(117, 117, 117);
-    
+
 }
 
 .skills .skill-title {
@@ -181,6 +181,72 @@ main {
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
-.skills .card-box .card h2{
+
+.skills .card-box .card h2 {
     margin: 15px 0px;
+}
+
+/* resume section */
+
+.resume {
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.resume .resume-title {
+    text-align: center;
+    margin-bottom: 70px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resume .work {
+    display: flex;
+}
+
+.resume .edu,
+.exp {
+    padding: 30px;
+}
+
+.resume .edu h2,
+.exp h2 {
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.resume .resume-info {
+    padding: 15px 0px;
+}
+
+.resume .resume-info h3 {
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.resume .resume-info h4,
+p {
+    color: rgb(117, 117, 117);
+
+}
+
+.resume .resume-info h4 {
+    margin: 5px 0px 12px 0px;
+}
+
+hr {
+    color: #d1d1d1;
+    margin-top: 25px;
+}
+
+.cv {
+    display: block;
+    text-align: center;
+    margin-left: 43%;
 }
