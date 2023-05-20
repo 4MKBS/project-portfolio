@@ -250,3 +250,46 @@ hr {
     text-align: center;
     margin-left: 43%;
 }
+/* footer secstion */
+.footer{
+    background-color: rgba(255, 248, 243, 1);
+    display: flex;
+    justify-content: center;
+    padding: 80px 210px;
+}
+.footer .social{
+    margin: 10px;
+    padding: 10px;
+}
+.footer .social p{
+    margin: 12px 0px 23px 0px;
+}
+.footer .social .fa-brands{
+    margin-right: 10px;
+    color: #fd6e0a;
+    font-size: 20px;
+}
+.footer .msg{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px;
+    padding: 10px;
+    /* justify-content: left; */
+    /* align-items: flex-start; */
+
+}
+.footer .msg  input , textarea{
+    margin-top: 15px;
+    padding: 10px;
+    width: 280px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.footer .msg h2{
+    margin-bottom: 10px;
+}
+.submit{
+    margin-top: 15px;
+    width: 140px;
+}
